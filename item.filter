@@ -1,5 +1,10 @@
-//Filter: NAS Beginner
+
+//NASFilter: An Item Filter for the Path of Diablo Mod
+//Filter: Standard 
+//Version: 1.0.0
+//Created by: Nathan
 //Find item codes at: http://pathofdiablo.com/wiki/index.php/List_of_Loot_Filter_Codes
+
 
 //Basics
 //Hide Gold Piles Smaller Than (<) X
@@ -60,14 +65,14 @@ ItemDisplay[mbr]: %GOLD%Mephisto's Brain
 
 
 //Utility
-//ItemDisplay[tsc]: %GREEN%!%WHITE%TP
-//ItemDisplay[isc]: %GREEN%!%WHITE%ID
-//ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
+ItemDisplay[tsc]: 
+ItemDisplay[isc]: 
+ItemDisplay[wms CLVL<60]: 
 ItemDisplay[wms CLVL>59]:
-//ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
+ItemDisplay[yps]: 
 ItemDisplay[yps]:
 //Keys for Locked Chests
-//ItemDisplay[key]: %WHITE%key
+ItemDisplay[key]: 
 //Tomes
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
@@ -78,7 +83,7 @@ ItemDisplay[opl]:
 ItemDisplay[ops]:
 ItemDisplay[gps]:
 ItemDisplay[gpl]:
-//ItemDisplay[vps CLVL<55]: %GREEN%!%WHITE%Stamina
+ItemDisplay[vps CLVL<55]: 
 ItemDisplay[vps CLVL>54]:
 //Hide MAGIC Quivers & Bolts above level 60
 ItemDisplay[aq2 MAG ILVL>41]:
